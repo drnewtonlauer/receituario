@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import type { Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/layout/Header'
@@ -40,14 +41,16 @@ export const metadata: Metadata = {
     title: 'Med Lauer - Sistema de Prescrição Médica',
     description: 'Sistema moderno de prescrição médica, receituário, solicitações e atestados médicos.',
   },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-  },
   verification: {
     google: 'google-site-verification-code',
   },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: '#0c6af2',
 }
 
 export default function RootLayout({
