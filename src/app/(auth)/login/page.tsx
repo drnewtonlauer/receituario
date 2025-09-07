@@ -2,8 +2,8 @@
  import { Metadata } from 'next';
  
  export const metadata: Metadata = {
-   title: 'Dashboard - Med Lauer',
-   description: 'Painel de controle do sistema Med Lauer',
+   title: 'Login - Med Lauer',
+   description: 'Faça login no sistema Med Lauer',
 -  viewport: 'width=device-width, initial-scale=1',
  };
  
@@ -12,4 +12,4 @@
 +  initialScale: 1,
 +};
 +
- export default function DashboardPage() {
+ export default function LoginPage() {
